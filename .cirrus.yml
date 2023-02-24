@@ -4,6 +4,8 @@ container:
   memory: 16G
   kvm: true
 
+env:
+  CC_TEST_REPORTER_ID: ENCRYPTED[!a04c713b3ca9d3d75f99f40faf1a35d4edf9424e839326b8c3f5eaa2633f1aeef46390b3760a9234ed5e07a6cbbf0ade!]
 check_android_task:
   name: Run Android tests
   install_emulator_script:
